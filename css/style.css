@@ -25,15 +25,13 @@ h3 {
 
 p {
     font-family: 'Jaldi', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.3;
 }
 
 strong {
     text-decoration: underline;
 }
-
-
 
 main {
     padding: 40px 0px 40px 0px;
@@ -242,28 +240,6 @@ nav .nav-links-mobile li {
     width: 100%;
 }
 
-.index-photos img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-.index-photos img:nth-child(1) {
-    width: 150px;
-    height: 150px;
-    position:sticky;
-    left: 25%;
-    top: 75%;
-}
-
-.index-photos img:nth-child(2) {
-    width: 100px;
-    height: 100px;
-    position:sticky;
-    left: 15%;
-    top: 55%;
-}
-
 /* projects styling */
 .projects-container {
     display: grid;
@@ -362,7 +338,7 @@ nav .nav-links-mobile li {
 
     .main-index {
         grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
+        column-gap: 30px;
     }
 
     .projects-container {
@@ -371,6 +347,10 @@ nav .nav-links-mobile li {
 
     body {
         padding: 40px 80px 40px 80px;
+    }
+
+    p {
+        font-size: 20px;
     }
 
 }
